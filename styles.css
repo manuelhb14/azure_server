@@ -21,6 +21,10 @@ body {
   margin: 3%;
 }
 
+a {
+  color: whitesmoke;
+}
+
 .progress {
   background-color: #54595c;
 }
