@@ -1,12 +1,13 @@
 body {
   font-family: 'Lato', sans-serif;
+  background-color: #313336;
+  color: gainsboro;
 }
 
 .jumbotron {
   background-image: url("971.jpg");
   background-size: cover;
   height: 100vh;
-  color: gainsboro;
   opacity: 0.9;
 }
 
@@ -20,6 +21,18 @@ body {
   margin: 3%;
 }
 
+.progress {
+  background-color: #54595c;
+}
+
+.card-container {
+  padding: 2%;
+}
+
+.card {
+  background-color: grey;
+}
+
 #py{
   background-color: green;
 }
@@ -28,4 +41,7 @@ body {
 }
 #js{
   background-color: yellow;
+}
+#sol {
+  background-color: #000000;
 }
