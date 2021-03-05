@@ -11,24 +11,21 @@
         <title>Calculadora de IMC</title>
     </head>
     <body>
-        <div class="c">
+        <div class="c" id="border">
             <h1 class="title">Calculadora IMC</h1>
             <div class="fl">
-                <h5>Altura</h5>
-                <h5>170</h5>
+                <h4>Altura</h4>
+                <input type="number" name="altura" id="altura" value="175" oninput="calculo()">
             </div>
             <div class="fl">
-                <h5>Peso</h5>
-                <h5>65</h5>
+                <h4>Peso</h4>
+                <input type="number" name="peso" id="peso" value="65" oninput="calculo()">
             </div>
-            <div class="p">
-                <div class="fl">
-                    <h2>20.8</h2>
-                    <h3>Normal</h3>
-                </div>
-                <div class="line"></div>
+            <div class="p" id="color_change">
+                <h1 id="imc">21.22</h1>
+                <h3 id="desc">Normal</h3>
             </div>
-            IMC
-        </div> 
+        </div>
+        <script src="bmi.js"></script> 
     </body>
 </html>

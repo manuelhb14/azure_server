@@ -13,23 +13,34 @@ p {
 }
 
 .c {
-    margin-top: 10%;
-    margin: 10% 35% 20% 40%;
+    margin: 10% 35% 20% 35%;
     padding: 2%;
     text-align: center;
     color: white;
     border-style: solid;
     border-radius: 7%;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border-color: #25ba6b;
+}
+
+input {
+    background: transparent;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    width: 30%;
+    border: none;
+    border-bottom: 1px solid #328da8;
 }
 
 .p {
-    padding: 2%;
-    text-align: center;
-    color: white;
+    color: #25ba6b;
+    margin: 10% 20% 1% 20%;
     border-style: solid;
     border-radius: 7%;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    padding: 10%;
+    
 }
 
 .title {
@@ -41,10 +52,3 @@ p {
     justify-content: space-between;
     margin: 10%;
 }
-
-.line{
-    width: 90%;
-    height: 47px;
-    border-bottom: 1px solid black;
-    text-align: center;
-    }
